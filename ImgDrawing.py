@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-img = cv2.imread('CETI Icon.png',cv2.IMREAD_COLOR)
+img = cv2.imread('Resources/CETI Icon.png',cv2.IMREAD_COLOR)
 cv2.line(img,(0,0),(200,300),(255,255,255),10)
 cv2.rectangle(img,(200,250),(500,500),(0,0,255),15)
 cv2.circle(img,(447,163), 63, (0,255,0), -1)

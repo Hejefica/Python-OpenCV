@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('CETI Icon.png',cv2.IMREAD_COLOR)
+img = cv2.imread('Resources/CETI Icon.png',cv2.IMREAD_COLOR)
 px = img[55,55]
 img[55,55] = [255,255,255]
 px = img[100:150,100:150]
